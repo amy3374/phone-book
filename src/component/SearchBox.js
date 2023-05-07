@@ -14,14 +14,14 @@ const SearchBox = () => {
         <Col lg={9}>
           <Form.Control
             type="text"
-            placeholder="Name"
+            placeholder="이름을 검색하세요"
             value={keyword}
             onChange={(e) => setKeyword(e.target.value)}
           />
         </Col>
         <Col lg={2}>
           <Button variant="primary" type="submit" onClick={search}>
-            Search
+            검색
           </Button>
         </Col>
       </Row>
